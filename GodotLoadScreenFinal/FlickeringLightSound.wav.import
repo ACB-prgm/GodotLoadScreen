@@ -2,12 +2,12 @@
 
 importer="wav"
 type="AudioStreamSample"
-path="res://.import/FlickeringLightSound.wav-84d945429b8d1e9056de80e3cb3c7363.sample"
+path="res://.import/FlickeringLightSound.wav-aa5f4fcce0503ad061f1f50786d354eb.sample"
 
 [deps]
 
-source_file="res://GodotLoadScreen/FlickeringLightSound.wav"
-dest_files=[ "res://.import/FlickeringLightSound.wav-84d945429b8d1e9056de80e3cb3c7363.sample" ]
+source_file="res://Scenes/GodotLoadScreenFinal/FlickeringLightSound.wav"
+dest_files=[ "res://.import/FlickeringLightSound.wav-aa5f4fcce0503ad061f1f50786d354eb.sample" ]
 
 [params]
 

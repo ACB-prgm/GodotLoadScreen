@@ -1,7 +1,7 @@
-extends Node2D
+extends ColorRect
 
 
-onready var godotSprite = $GodotAnimatedSprite
+onready var godotSprite = $Control/GodotAnimatedSprite
 onready var tween = $Tween
 onready var godotTXT = $Control/Godot
 onready var lightFlikceringSound = $LightFlickerSound
