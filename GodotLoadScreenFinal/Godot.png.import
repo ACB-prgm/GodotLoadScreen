@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Godot.png-f4a9302b2406f0c873c93f36308186f2.stex"
+path="res://.import/Godot.png-06d1570050982074cd347bb2f4ad3014.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Scenes/GodotLoadScreenFinal/Godot.png"
-dest_files=[ "res://.import/Godot.png-f4a9302b2406f0c873c93f36308186f2.stex" ]
+source_file="res://GodotLoadScreen/GodotLoadScreenFinal/Godot.png"
+dest_files=[ "res://.import/Godot.png-06d1570050982074cd347bb2f4ad3014.stex" ]
 
 [params]
 

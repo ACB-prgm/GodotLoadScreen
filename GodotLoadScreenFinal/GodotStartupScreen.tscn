@@ -1,9 +1,9 @@
 [gd_scene load_steps=9 format=2]
 
-[ext_resource path="res://Scenes/GodotLoadScreenFinal/FlickeringLightSound.wav" type="AudioStream" id=2]
-[ext_resource path="res://Scenes/GodotLoadScreenFinal/GodotLogoStartup.tscn" type="PackedScene" id=3]
-[ext_resource path="res://Scenes/GodotLoadScreenFinal/PressStart2P-Regular.ttf" type="DynamicFontData" id=4]
-[ext_resource path="res://Scenes/GodotLoadScreenFinal/GodotStartupScreen.gd" type="Script" id=5]
+[ext_resource path="res://GodotLoadScreen/GodotLoadScreenFinal/FlickeringLightSound.wav" type="AudioStream" id=2]
+[ext_resource path="res://GodotLoadScreen/GodotLoadScreenFinal/GodotLogoStartup.tscn" type="PackedScene" id=3]
+[ext_resource path="res://GodotLoadScreen/GodotLoadScreenFinal/PressStart2P-Regular.ttf" type="DynamicFontData" id=4]
+[ext_resource path="res://GodotLoadScreen/GodotLoadScreenFinal/GodotStartupScreen.gd" type="Script" id=5]
 
 [sub_resource type="DynamicFont" id=1]
 font_data = ExtResource( 4 )
@@ -40,6 +40,7 @@ margin_left = -159.811
 margin_top = -160.0
 margin_right = 160.189
 margin_bottom = 160.0
+rect_pivot_offset = Vector2( 160, 160 )
 __meta__ = {
 "_edit_use_anchors_": false
 }
