@@ -4,7 +4,7 @@ extends Node2D
 onready var godotSprite = $GodotAnimatedSprite
 onready var tween = $Tween
 onready var godotTXT = $Control/Godot
-onready var lightFlikceringSound = $LightingEffect
+onready var lightFlikceringSound = $LightFlickerSound
 
 
 func _ready():
@@ -18,10 +18,13 @@ func _on_AnimationPlayTimer_timeout():
 	godotSprite.play()
 
 func _on_GodotAnimatedSprite_animation_finished():
-#	I added Camera shake here, bbut you'll need to add that yourself!
+	# Here I added camera shake, you will need to do this on your own
+	# if you  are interested in how I made a camera shake function, message
+	# me or comment on my video.
 	$ChangeSceneTimer.start()
 
 func _on_ChangeSceneTimer_timeout():
-		print("insert title scene for transition")
-		pass
-#		get_tree().change_scene()
+	print('change scene')
+	pass
+	# this is called upon completion fo the bootup
+	# You should add a get_tree().change_scene() to your title screen

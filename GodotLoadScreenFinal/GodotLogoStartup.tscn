@@ -1,8 +1,8 @@
 [gd_scene load_steps=8 format=2]
 
-[ext_resource path="res://GodotSplash/GodotLogoStartup.gd" type="Script" id=1]
-[ext_resource path="res://GodotSplash/Godot.png" type="Texture" id=2]
-[ext_resource path="res://GodotSplash/GodotLogoParticles.tres" type="Material" id=3]
+[ext_resource path="res://GodotLoadScreen/GodotLogoStartup.gd" type="Script" id=1]
+[ext_resource path="res://GodotLoadScreen/Godot.png" type="Texture" id=2]
+[ext_resource path="res://GodotLoadScreen/GodotLogoParticles.tres" type="Material" id=3]
 
 [sub_resource type="AtlasTexture" id=1]
 atlas = ExtResource( 2 )
